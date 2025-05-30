@@ -1,0 +1,25 @@
+1. OOP là gì?
+  - OOP là viết tắt của Lập trình hướng đối tượng .
+  - Lập trình thủ tục là về việc viết các thủ tục hoặc phương thức thực hiện các hoạt động trên dữ liệu, trong khi lập trình hướng đối tượng là về việc tạo ra các đối tượng chứa cả dữ liệu và phương thức.
+  - Lập trình hướng đối tượng có một số ưu điểm so với lập trình thủ tục:
+       OOP nhanh hơn và dễ thực hiện hơn
+       OOP cung cấp một cấu trúc rõ ràng cho các chương trình
+       OOP giúp giữ cho mã Java DRY "Đừng lặp lại chính mình" và giúp mã dễ bảo trì, sửa đổi và gỡ lỗi hơn
+       OOP giúp tạo ra các ứng dụng có thể tái sử dụng hoàn toàn với ít mã hơn và thời gian phát triển ngắn hơn
+  - Mẹo: Nguyên tắc "Đừng lặp lại chính mình" (DRY) là về việc giảm sự lặp lại của mã.
+Bạn nên trích xuất các mã chung cho ứng dụng và đặt chúng ở một nơi duy nhất và sử dụng lại chúng thay vì lặp lại.
+
+2.Lớp và Đối tượng là gì?
+  - Lớp và đối tượng là hai khía cạnh chính của lập trình hướng đối tượng.
+  - Ví dụ : Lớp "Hoa quả" có các đối tượng " Lê, táo, xoài, ...."
+          : Lớp xe ô tô có các đối tượng "Volvo, BMW, Toyota"
+  - Vì vậy, lớp là một khuôn mẫu cho các đối tượng và mỗi đối tượng là một thể hiện của lớp.
+  - Khi các đối tượng riêng lẻ được tạo ra, chúng sẽ kế thừa tất cả các biến và phương thức từ lớp.
+
+2. Các lớp/đối tượng Java
+   - Java là ngôn ngữ lập trình hướng đối tượng.
+   - Mọi thứ trong Java đều liên quan đến các lớp và đối tượng,
+cùng với các thuộc tính và phương thức của nó. Ví dụ: trong đời thực, một chiếc ô tô là một đối tượng. Chiếc ô tô có các thuộc tính ,chẳng hạn như trọng lượng
+và màu sắc, và các phương thức , chẳng hạn như lái xe và phanh.
+   - Lớp giống như một trình xây dựng đối tượng hoặc "bản thiết kế" để tạo ra các đối tượng.
+

@@ -1,0 +1,10 @@
+1. Thuộc tính lớp Java
+   - Trong chương trước, chúng ta đã sử dụng thuật ngữ "biến" x trong ví dụ Trên thực tế, nó là một thuộc tính của lớp. Hoặc bạn có thể nói rằng các thuộc tính
+lớp là các biến trong một lớp:
+
+                  public class Main {
+                       int x = 5;
+                       int y = 3;
+                  }
+   - Ở đây là tạo một lớp có tên là " Main" với hai thuộc tính: x và y:
+   - Một thuật ngữ khác cho thuộc tính lớp là trường (field)
