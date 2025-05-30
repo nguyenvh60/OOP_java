@@ -1,4 +1,4 @@
-package Main;
+package Bai1_DinhNghia;
 
 public class Main {
     // Tạo một lớp có tên " Main" với biến x:

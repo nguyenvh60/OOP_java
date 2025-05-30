@@ -1,4 +1,4 @@
-package ThuocTinh;
+package Bai2_ThuocTinh;
 
 // Có thể truy cập các thuộc tính bằng cách tạo một đối tượng của lớp và bằng cách sử dụng cú pháp dấu chấm ( .):
 // Ví dụ sau sẽ tạo một đối tượng của lớp Main, với tên myObj. Chúng ta sử dụng x thuộc tính trên đối tượng để in giá trị của nó
@@ -16,7 +16,7 @@ public class Main {
         // Cũng có thể sửa đổi giá trị thuộc tính:
         Main myObj1 = new Main();
         myObj1.y = 40;
-        System.out.println(myObj.y);
+        System.out.println(myObj1.y);
 
         // Hoặc ghi đè các giá trị hiện có: Thay đổi giá trị x thành 25:
         Main myObj2 = new Main();
@@ -24,11 +24,11 @@ public class Main {
         System.out.println(myObj2.x);
 
         // Nhiều đối tượng
-        Main myObj3 = new Main();  // Object 1
-        Main myObj4 = new Main();  // Object 2
+        Main myObj3 = new Main();
+        Main myObj4 = new Main();
         myObj4.x = 25;
-        System.out.println(myObj3.x);  // Outputs 5
-        System.out.println(myObj4.x);  // Outputs 25
+        System.out.println(myObj3.x);
+        System.out.println(myObj4.x);
 
         // Thay đổi giá trị x thành 25 trong myObj4, và giữ nguyên x myObj3:
 

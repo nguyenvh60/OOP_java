@@ -1,0 +1,6 @@
+1. Phương thức lớp Java
+- Các phương thức được khai báo trong một lớp và chúng được sử dụng để thực hiện các hành động nhất định:
+2. Phương thức Tĩnh so với Công khai
+- Bạn sẽ thường thấy các chương trình Java có thuộc tính statichoặc public phương thức.
+- Trong ví dụ trên, chúng ta đã tạo một phương thức static , nghĩa là nó có thể được truy cập mà không cần tạo đối tượng của lớp,
+không giống như public, chỉ có thể được truy cập bởi các đối tượng
