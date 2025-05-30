@@ -1,0 +1,28 @@
+1. Khái niệm
+    - Trong Java, modifiers (bộ sửa đổi) là từ khóa dùng để thay đổi phạm vi truy cập, hành vi hoặc đặc điểm của lớp, phương thức, biến, hoặc constructor.
+    - Từ khóa public là một trình sửa đổi quyền truy cập , nghĩa là nó được sử dụng để thiết lập mức độ truy cập cho các lớp, thuộc tính, phương thức và hàm tạo.
+    - Chia các Modifiers thành hai nhóm:
+      + Access Modifiers - kiểm soát mức độ truy cập
+      + Bộ điều chỉnh không truy cập - không kiểm soát mức truy cập nhưng cung cấp chức năng khác
+2. Bộ điều chỉnh quyền truy cập
+    - Đối với các lớp , bạn có thể sử dụng một trong hai public hoặc default :
+      + Public : Lớp này có thể được truy cập bởi bất kỳ lớp nào khác
+      + Default : Lớp này chỉ có thể truy cập được bởi các lớp trong cùng một gói. Điều này được sử dụng khi bạn không chỉ định một trình sửa đổi
+    public class MyClass (){} và class myClass (){}
+    - Đối với các thuộc tính, phương thức và hàm tạo , bạn có thể sử dụng một trong những cách sau:
+      + Public :  Mã có thể truy cập được cho tất cả các lớp
+      + Private : Mã chỉ có thể truy cập được trong lớp đã khai báo
+      + Default : Mã chỉ có thể truy cập được trong cùng một gói
+      + Protected : Mã có thể truy cập được trong cùng một gói và các lớp con
+3. Các trình sửa đổi không truy cập
+    - Đối với các class , bạn có thể sử dụng một trong hai cách final & abstract
+      + final : Lớp không thể được kế thừa bởi các lớp khác
+      + abstract : Lớp không thể được sử dụng để tạo đối tượng (Để truy cập một lớp trừu tượng, nó phải được kế thừa từ một lớp khác)
+    - Đối với các thuộc tính và phương thức , bạn có thể sử dụng một trong những cách sau:
+      + final : Thuộc tính và phương thức không thể bị ghi đè/sửa đổi
+      + static : Thuộc tính và phương thức thuộc về lớp chứ không phải là đối tượng
+      + abstract : Chỉ có thể được sử dụng trong một lớp trừu tượng và chỉ có thể được sử dụng trên các phương thức.
+                    Phương thức không có phần thân, ví dụ abstract void run();. Phần thân được cung cấp bởi lớp con
+      + transient : Các thuộc tính và phương thức tạm thời bị bỏ qua khi tuần tự hóa đối tượng chứa chúng
+      + synchronized : Các phương thức chỉ có thể được truy cập bởi một luồng tại một thời điểm
+      + volatile : Giá trị của một thuộc tính không được lưu trữ cục bộ trong luồng và luôn được đọc từ "bộ nhớ chính"
