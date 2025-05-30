@@ -1,0 +1,6 @@
+1.Các hàm tạo Java
+  - Một constructor trong Java là một phương thức đặc biệt được sử dụng để khởi tạo các đối tượng.
+  - Constructor được gọi khi một đối tượng của một lớp được tạo ra. Nó có thể được sử dụng để thiết lập các giá trị ban đầu cho các thuộc tính của đối tượng:
+  - Tên constructor phải trùng với tên class.
+  - Không có kiểu trả về, kể cả void.
+  - Có thể có tham số hoặc không có tham số.
