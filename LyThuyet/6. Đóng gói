@@ -1,0 +1,14 @@
+ - Ý nghĩa của Encapsulation là đảm bảo rằng dữ liệu "nhạy cảm" được ẩn khỏi người dùng. Để đạt được điều này, bạn phải:
+    + Khai báo các biến/thuộc tính lớp như private
+    + Cung cấp các phương thức get và set công khai để truy cập và cập nhật giá trị của một private biến
+    + Private các biến chỉ có thể được truy cập trong cùng một lớp (một lớp bên ngoài không thể truy cập vào nó). Tuy nhiên, có thể truy cập
+chúng nếu chúng ta cung cấp các phương thức public get và set .
+    + Phương thức này get trả về giá trị biến và set thiết lập giá trị đó.
+    + Cú pháp cho cả hai lệnh đều bắt đầu bằng  get hoặc set, theo sau là tên biến, với chữ cái đầu tiên viết hoa:
+
+
+- Tại sao phải đóng gói?
+    + Kiểm soát tốt hơn các thuộc tính và phương thức của lớp
+    + Thuộc tính lớp có thể được thiết lập chỉ đọc (nếu bạn chỉ sử dụng getphương thức) hoặc chỉ ghi (nếu bạn chỉ sử dụng setphương thức)
+    + Linh hoạt: lập trình viên có thể thay đổi một phần của mã mà không ảnh hưởng đến các phần khác
+    + Tăng cường bảo mật dữ liệu
