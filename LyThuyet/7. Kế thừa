@@ -1,0 +1,11 @@
+1 .Kế thừa Java (Lớp con và lớp cha)
+   - Trong Java, có thể kế thừa các thuộc tính và phương thức từ lớp này sang lớp khác. Chúng tôi nhóm "khái niệm kế thừa" thành hai loại:
+
+     + Lớp con (lớp con) - lớp kế thừa từ lớp khác
+     + siêu lớp (cha mẹ) - lớp được kế thừa từ
+   Để kế thừa từ một lớp, hãy sử dụng từ khóa extends.
+
+2. Mục đích của kế thừa
+   - Tái sử dụng mã nguồn: Không cần viết lại code đã có ở lớp cha.
+   - Mở rộng chức năng: Lớp con có thể thêm hoặc ghi đè phương thức để mở rộng hoặc tùy chỉnh hành vi.
+   - Tổ chức hệ thống tốt hơn: Giúp xây dựng cấu trúc phân cấp rõ ràng giữa các đối tượng.
