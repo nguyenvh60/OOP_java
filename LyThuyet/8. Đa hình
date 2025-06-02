@@ -1,0 +1,8 @@
+1. Đa hình Java
+  - Đa hình có nghĩa là "nhiều dạng" và nó xảy ra khi chúng ta có nhiều lớp có liên quan với nhau thông qua thừa kế.
+  - Kế thừa cho phép chúng ta kế thừa các thuộc tính và phương thức từ một lớp khác.
+  - Đa hình sử dụng các phương thức đó để thực hiện các tác vụ khác nhau. Điều này cho phép chúng ta thực hiện một hành động duy nhất theo nhiều cách khác nhau.
+  - Ví dụ, hãy nghĩ đến một siêu lớp có Anima lphương thức có tên là animalSound(). Các lớp con của Động vật có thể là Lợn, Mèo, Chó, Chim
+     ->  Và chúng cũng có cách triển khai riêng về âm thanh của động vật (lợn kêu ụt ịt, mèo kêu meo meo, v.v.):
+  - Tại sao và khi nào nên sử dụng "Kế thừa" và "Đa hình"?
+     -> Hữu ích cho khả năng tái sử dụng mã: tái sử dụng các thuộc tính và phương thức của một lớp hiện có khi bạn tạo một lớp mới.
