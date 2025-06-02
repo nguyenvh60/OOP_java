@@ -1,0 +1,45 @@
+1. Interface
+   - Một cách khác để đạt được tính trừu tượng trong Java là sử dụng interface.
+   - An interface là một " lớp trừu tượng " hoàn toàn được sử dụng để nhóm các phương thức liên quan với nhau bằng các phần tử rỗng:
+
+   interface Animal {
+     public void animalSound(); // interface method (does not have a body)
+     public void run(); // interface method (does not have a body)
+   }
+
+   Để truy cập các phương thức interface, interface phải được "triển khai" (giống như kế thừa) bởi một lớp khác bằng implements từ khóa (thay vì extends).
+   Thân của phương thức giao diện được cung cấp bởi lớp "triển khai":
+
+
+2.Ghi chú về Giao diện:
+  Giống như các lớp trừu tượng , giao diện không thể được sử dụng để tạo đối tượng (trong ví dụ trên, không thể tạo đối tượng "Animal" trong MyMainClass)
+  Các phương thức giao diện không có phần thân - phần thân được cung cấp bởi lớp "implement"
+  Khi triển khai một giao diện, bạn phải ghi đè tất cả các phương thức của nó
+  Các phương thức giao diện theo mặc định abstractvà public
+  Thuộc tính giao diện theo mặc định publiclà staticvàfinal
+  Giao diện không thể chứa hàm tạo (vì nó không thể được sử dụng để tạo đối tượng)
+  Tại sao và khi nào nên sử dụng giao diện?
+  1) Để đạt được tính bảo mật - ẩn một số chi tiết nhất định và chỉ hiển thị những chi tiết quan trọng của đối tượng (giao diện).
+
+  2) Java không hỗ trợ "kế thừa đa" (một lớp chỉ có thể kế thừa từ một siêu lớp). Tuy nhiên, có thể đạt được điều này bằng giao diện, vì lớp có thể triển khai nhiều giao diện.
+  Lưu ý: Để triển khai nhiều giao diện, hãy phân tách chúng bằng dấu phẩy
+             interface FirstInterface {
+                 public void myMethod(); // interface method
+             }
+
+             interface SecondInterface {
+                 public void myOtherMethod(); // interface method
+             }
+
+
+
+
+
+           class DemoClass implements FirstInterface, SecondInterface {
+             public void myMethod() {
+               System.out.println("Some text..");
+             }
+             public void myOtherMethod() {
+               System.out.println("Some other text...");
+             }
+           }
