@@ -1,0 +1,10 @@
+1. Trừu tượng Java
+ - Các lớp và phương pháp trừu tượng
+   + Trừu tượng hóa dữ liệu là quá trình ẩn một số chi tiết nhất định và chỉ hiển thị thông tin cần thiết cho người dùng.
+   + Trừu tượng hóa có thể đạt được bằng các lớp trừu tượng hoặc giao diện (bạn sẽ tìm hiểu thêm về chúng trong chương tiếp theo).
+
+ - Từ khóa abstract là một trình sửa đổi không truy cập, được sử dụng cho các lớp và phương thức:
+ - Một lớp trừu tượng có thể có cả phương thức trừu tượng và phương thức thông thường:
+   + Lớp trừu tượng: là lớp bị hạn chế không thể sử dụng để tạo đối tượng (để truy cập vào lớp này, phải kế thừa từ một lớp khác).
+   + Phương thức trừu tượng: chỉ có thể được sử dụng trong lớp trừu tượng và không có phần thân. Phần thân được cung cấp bởi lớp con (thừa hưởng từ).
+  -> Một lớp trừu tượng có thể có cả phương thức trừu tượng và phương thức thông thường:
